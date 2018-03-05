@@ -1,1 +1,1 @@
-Draksannth,Warlock,Fey,Male,Draksanth,150,100,0,1,1,6,12,13,8,11,1,1,None
+Drak,Warlock,Fey,Male,Draksanth,150,100,0,1,1,6,12,13,8,11,1,1,None

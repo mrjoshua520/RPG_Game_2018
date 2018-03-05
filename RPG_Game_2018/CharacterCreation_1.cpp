@@ -1100,6 +1100,10 @@ void CharacterCreation_1::Save_Char()
 	ofstream outputEquip;
 	ofstream outputItems;
 
+	remove("CharStats.txt");
+	remove("Equipment.txt");
+	remove("Items.txt");
+
 	outputChar.open(fileChar);
 	outputEquip.open(fileEquip);
 	outputItems.open(fileItem);
@@ -1126,6 +1130,10 @@ void CharacterCreation_1::Load_Char()
 	int comma2;
 	string namethree;
 	int comma3;
+
+	inputChar.open(fileChar);
+	inputEquip.open(fileEquip);
+	inputItems.open(fileItem);
 
 	for (int count = 0; getline(inputChar, name); count++)
 	{
@@ -1202,7 +1210,7 @@ void CharacterCreation_1::Load_Char()
 		name = name.substr(comma + 1);
 	}
 
-	for (int count = 0; getline(inputChar, nametwo); count++)
+	for (int count = 0; getline(inputEquip, nametwo); count++)
 	{
 		comma2 = nametwo.find(',');
 		equip.headSlot = nametwo.substr(0, comma);
@@ -1237,7 +1245,7 @@ void CharacterCreation_1::Load_Char()
 		nametwo = nametwo.substr(comma + 1);
 	}
 
-	for (int count = 0; getline(inputChar, namethree); count++)
+	for (int count = 0; getline(inputItems, namethree); count++)
 	{
 		comma3 = namethree.find(',');
 		item.gold = stoi(namethree.substr(0, comma));
@@ -1291,4 +1299,8 @@ void CharacterCreation_1::Load_Char()
 		item.lockpick = stoi(namethree.substr(0, comma));
 		namethree = namethree.substr(comma + 1);
 	}
+
+	inputChar.close();
+	inputEquip.close();
+	inputItems.close();
 }

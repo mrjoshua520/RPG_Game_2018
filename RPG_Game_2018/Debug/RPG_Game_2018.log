@@ -1,5 +1,4 @@
-﻿  Kreton_2.cpp
-  CharacterCreation_1.cpp
+﻿  CharacterCreation_1.cpp
 c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(691): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(735): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
 c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(757): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
@@ -11,6 +10,5 @@ c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(
 c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(919): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
 c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(920): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
 c:\users\joshu\source\repos\rpg_game_2018\rpg_game_2018\charactercreation_1.cpp(921): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
-  Generating Code...
   RPG_Game_2018.vcxproj -> C:\Users\joshu\source\repos\RPG_Game_2018\Debug\RPG_Game_2018.exe
   RPG_Game_2018.vcxproj -> C:\Users\joshu\source\repos\RPG_Game_2018\Debug\RPG_Game_2018.pdb (Partial PDB)

@@ -337,6 +337,7 @@ void Kreton_2::Talk_People()
 				Sleep(150);
 				cout << yellow << "Thank you so much, it will be well spent I assure you" << endl;
 				player.item.gold -= 1;
+				player.Save_Char();
 			}
 			else 
 			{
