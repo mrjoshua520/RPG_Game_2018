@@ -304,6 +304,7 @@ void Kreton_2::Talk_People()
 			Sleep(150);
 			cout << yellow << "Oh hello friend, If you could spare it I am having trouble with money and my kids are very hungry. Could you spare a gold piece for a man to feed his children?" << endl;
 			Sleep(150);
+			cout << lightred << "You have " << player.item.gold << "." << endl;
 
 			while (BadInputtwo)
 			{
